@@ -1,0 +1,48 @@
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.news-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.news-card-body {
+    padding: 10px;
+}
+
+.news-card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.news-card-text {
+    font-size: 0.9em;
+    color: #666;
+    height: 60px;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
